@@ -1,0 +1,27 @@
+@media (max-width:500px) {
+    #what .items{
+        flex-direction: column;
+    }
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+     #navbar .logo{
+         margin-bottom: 0.5em;
+    }
+    #who{
+        flex: none;
+        flex-direction: column;
+    }
+    #who .who-img{
+        width: 100%;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    .mab{
+        width: 390px;
+    }
+
+    
+}
